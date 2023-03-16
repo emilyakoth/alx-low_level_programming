@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
- *
- * Description: use the main function
+ * Description: main - prints out a string to stdout.
  * this program prints "programming is like a multilingual puzzl
- * Return : Always 0 (Sucess)
+ * Return 0 if success.
  */
 int main(void)
 {
