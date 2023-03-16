@@ -7,7 +7,7 @@
  * this program prints "programming is like a multilingual puzzl
  * Return : 0
  */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
