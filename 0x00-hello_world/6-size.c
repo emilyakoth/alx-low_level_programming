@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * produce the exact same output as in the example
+ * main - Entry point
  * warnings are allowed
- * program should return 0
+ * Return: Always 0 if sucess
  */
-int main (void)
+int main(void)
 {
 	int a;
 	long int b;
