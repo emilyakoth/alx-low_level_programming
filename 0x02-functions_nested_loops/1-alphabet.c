@@ -3,7 +3,7 @@
 /*
  * main - entry point
  * checks code
- * Return: Always 0 if success
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -11,8 +11,8 @@ void print_alphabet(void)
 
 	for (c = 'a' ; c <= 'z' ; c++);
 	{
-		putchar(c);
+		_putchar (c);
 	}
-	putchar('\n');
-	return (0);
+	_putchar ('\n');
+	
 }
