@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * print_alphabet_x10 - Make alphabet x10 times
-  *
-  * Return: void
-  */
+ *  print_alphabet_x10 - prints ten times the alphabet
+ *
+ *  Return: Always 0 if sucess
+ */
 void print_alphabet_x10(void)
 {
 	char c;
@@ -20,5 +20,6 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 
 		i++;
+		return (0);
 	}
 }
