@@ -1,17 +1,14 @@
-include "main.h"
+#include "test.h"
 
 /**
- * main - check the code.
- *
- * Return: 1 if alphabetic and 0 is otherwise.
+ * _isalpha - checks for alphabetic character
+ *@c: c is the value to check the alphabetic character
+ * Return: 1 if alphabet and 0 if otherwise
  */
 int _isalpha(int c)
 {
-		if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-	{
+	if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 		return (1);
-	}
-
-	return (0);
+	else
+		return (0);
 }
-
