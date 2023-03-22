@@ -1,11 +1,10 @@
 #include "main.h"
 
-/*
- * main - Entry point
- * Description: prints alphabet in lowercase
- * Return: Always 0 if success
- * 
- */
+/**
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
 int main(void)
 {
 	_putchar('_');
