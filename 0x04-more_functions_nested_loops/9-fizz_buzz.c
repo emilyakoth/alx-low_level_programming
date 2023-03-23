@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 0; x <= 100; x++)
 	{
-		if ((x % 3 == 0) && ( x % 5 == 0))
+		if ((x % 3 == 0) && (x % 5 == 0))
 		{
 			printf("Fizzbuzz");
 		}
@@ -28,15 +28,11 @@ int main(void)
 		{
 			printf("%d", x);
 		}
-
-		if ( x != 100)
+		if (x != 100)
 		{
 			printf(" ");
 		}
 	}
-
 	printf("\n");
-
 	return (0);
 }
-
