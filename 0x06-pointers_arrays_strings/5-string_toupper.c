@@ -2,11 +2,11 @@
 
 /**
  * string_toupper - changes lowercase to uppercase
- * @n: the string
+ * @p: the string
  *
  * Return: char
  */
-char *string_toupper(char *n)
+char *string_toupper(char *p)
 {
 	int a = 0;
 
