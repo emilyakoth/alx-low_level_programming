@@ -10,14 +10,15 @@ char *string_toupper(char *n)
 {
 	int a = 0;
 
-	while (n[a])
+	while (p[a])
 	{
-		if (n[a] >= 97 && n[a] <= 122)
+		if (p[a] >= 97 && p[a] <= 122)
 		{
-			n[a] -= 32
+			p[a] -= 32;
 		}
+
 		a++;
 	}
 
-	return (n);
+	return (p);
 }
