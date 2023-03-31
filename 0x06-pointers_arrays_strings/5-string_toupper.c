@@ -3,9 +3,10 @@
 /**
  * string_toupper - changes lowercase to uppercase
  * @n: the string
+ *
  * Return: char
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int a = 0;
 
