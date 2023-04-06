@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0) || n == 1)
+	if (n == 0 || n == 1)
 		return (n);
 
 	int _start = 1, end = n, ans;
@@ -27,4 +27,3 @@ int _sqrt_recursion(int n)
 	}
 	return ans;
 }
-
