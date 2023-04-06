@@ -10,16 +10,18 @@ int _sqrt_recursion(int n)
 	if (n == 0 || n == 1)
 		return (n);
 
-	int _start = 1, end = n, ans;
-	while (start <= end) 
+	int _start = 1;
+	int end = n;
+	int ans;
+	while (_start <= end) 
 	{
-		int mid = (start + end)/ 2;
+		int mid = (_start + end)/ 2;
 
 		if (mid * mid == n)
 			return mid;
 		if (mid * mid <n)
 		{
-			start = mid + 1;
+			_start = mid + 1;
 			ans = mid;
 		}
 		else
