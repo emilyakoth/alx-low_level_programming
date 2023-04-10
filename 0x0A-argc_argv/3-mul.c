@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies 2 numbers
@@ -7,7 +8,7 @@
  * @argv: argument vector
  * Return: int
  */
-int main(int argc, char *argv[1])
+int main(int argc, char *argv[])
 {
 	int a = 0;
 	int b = 0;
