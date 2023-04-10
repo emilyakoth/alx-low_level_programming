@@ -10,14 +10,35 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int a;
+	unsigned int b;
 	sum = 0;
+	char *e;
 
-	if (argc > 0)
+	if (argc > 1)
 	{
-		for (i = 1; i > argc; i++)
-			sum += atoi(argv[i]);
-			printf("%d\n", sum);
+		for (a = 1; a < argc, a++)
+		{
+		       e = argv[a];
+
+		       for (b = 0; b < strlen(e); b++)
+			{
+				if (e[b] < 48 || e[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+
+		       sum += atoi[e];
+		       e++
+		}
+
+		printf("%d\n", sum);
+	}
+	else
+	{
+		printf("0\n");
 	}
 
 	return (0);
