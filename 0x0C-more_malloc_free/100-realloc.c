@@ -23,6 +23,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
  * _realloc - reallocates memory
  * @ptr: pointer to revious memory
  * @old_size: old size of pointer
+ * @new_size: new pointer size
  * Return: void *
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
