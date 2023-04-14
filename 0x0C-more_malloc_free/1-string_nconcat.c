@@ -6,7 +6,7 @@
  * string_nconcat - concatenates two strings
  * @s1: first string
  * @s2: second string
- * n: number of bytes
+ * @n: number of bytes
  *
  * Return: string
  */
@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else 
 		p = m + n;
 
-	str = malloc(sizeof(char) * 1 + 1);
+	str = malloc(sizeof(char) * p + 1);
 	if (str == NULL)
 		return (NULL);
 
