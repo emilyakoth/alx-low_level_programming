@@ -18,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	if (*separator == 0 || separator == NULL)
 		sep = "";
 	else 
-		sep = (char * separator)
+		sep = (char *) separator;
 	va_start(list, n);
 
 	if (n > 0)
