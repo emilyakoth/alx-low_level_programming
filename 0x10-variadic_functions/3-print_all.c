@@ -15,7 +15,7 @@ void print_all(const char * const format, ...)
 	char *sep = ", ";
 	char *str;
 
-	va_start(valist, format)
+	va_start(valist, format);
 
 	while (format && format[i])
 		i++;
@@ -48,7 +48,3 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(valist);
 }
-
-
-
-
