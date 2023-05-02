@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - adds node
- * @h: pointer
+ * @head: pointer
  * @n: data
  *
  * Return: pointer or NULL
